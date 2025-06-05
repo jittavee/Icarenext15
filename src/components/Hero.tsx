@@ -97,8 +97,8 @@ const Hero = () => {
               ค้นหางาน หาที่ฝึกงาน
             </h1>
             <p className="text-lg text-gray-600 mb-6">
-              Dekend หาเพื่อนเที่ยว ทำธุระ ขับรถ ทานข้าว ปรึกษาพูดคุย พาไปหาหมอ!มาเป็นส่วนหนึ่งของ "I Care เพื่อนกัน" สมัครลงทะเบียนได้แล้ววันนี้! <br/>
-              มาพร้อมระบบ Ai จับคู่งานกับโปรไฟล์ของคุณ
+              I Care หาเพื่อนเที่ยว ทำธุระ ขับรถ ทานข้าว ปรึกษาพูดคุย พาไปหาหมอ!มาเป็นส่วนหนึ่งของ "I Care เพื่อนกัน" สมัครลงทะเบียนได้แล้ววันนี้! <br/>
+              มาพร้อมระบบ Ai จับคู่งานกับธุระของคุณ ได้ที่นี่
             </p>
             
             {/* Search Box */}
@@ -108,7 +108,7 @@ const Hero = () => {
                 placeholder="เช่น โปรแกรมเมอร์ บัญชี"
                 className="flex-1 px-6 py-3 bg-transparent focus:outline-none text-gray-900 placeholder:text-gray-500"
               />
-              <button className="px-6 py-2 m-1 bg-black text-white rounded-full hover:bg-gray-800 flex items-center gap-2 transition-colors">
+              <button className="px-6 py-2 m-1 bg-red-700 text-white rounded-full hover:bg-gray-800 flex items-center gap-2 transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
                   <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                 </svg>

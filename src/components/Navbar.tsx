@@ -15,24 +15,24 @@ export default function Navbar() {
 
                 {/* Navigation Link */}
                 <div className='hidden md:flex items-center space-x-8'>
-                    <Link href="/find-internship" className="text-gray-600 hover:text-green-500">
-                        ค้นหานักศึกษาฝึกงาน
+                    <Link href="/find-internship" className="text-gray-600 hover:text-blue-600">
+                        ค้นหาเพื่อนทำธุระ
                     </Link>
-                    <Link href="/articles" className="text-gray-600 hover:text-green-500">
+                    <Link href="/articles" className="text-gray-600 hover:text-blue-600">
                         บทความ
                     </Link>
-                    <Link href="/contact" className="text-gray-600 hover:text-green-500">
+                    <Link href="/contact" className="text-gray-600 hover:text-blue-600">
                         ติดต่อเรา
                     </Link>
                 </div>
 
                 {/* Auth Login/Register Button */}
                 <div className='flex items-center space-x-4'>
-                    <Link href="/login" className="text-gray-600 hover:text-green-500">
+                    <Link href="/login" className="text-gray-600 hover:text-blue-800">
                         เข้าสู่ระบบ
                     </Link>
                     <Link href="/register" 
-                    className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600">
+                    className="bg-red-700 text-white px-4 py-2 rounded-lg hover:bg-blue-800">
                         ลงทะเบียน
                     </Link>
                 </div>
