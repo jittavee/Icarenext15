@@ -4,14 +4,17 @@ import CompanyLogos from '@/components/CompanyLogos';
 import AboutUs from '@/components/AboutUs';
 import NewsUpdate from '@/components/NewsUpdate';
 import Resume from '@/components/Resume';
+import Head from '@/components/Head';
 
 export default function page() {
   return (
   <main>
+    {/* <Head /> */}
     <Hero/>
-    <CompanyLogos/>
     <AboutUs/>
+    <CompanyLogos/>
     <NewsUpdate/>
+    
     <Resume />
   </main>
     
